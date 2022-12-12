@@ -1,7 +1,7 @@
 # nushell-broot-alias
 br alias for nushell
 
-compile with `cargo build --release`, then add
+compile with `cargo build --release` - program is compiled to target\release\broot-alias.exe
 ```
 def-env br [...path: string] {
 # path to helper program
@@ -11,5 +11,5 @@ def-env br [...path: string] {
     }  
 }
 ```
-to your nushell env.nu
+add to your nushell env.nu
 
